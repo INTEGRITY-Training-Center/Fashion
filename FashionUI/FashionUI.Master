@@ -1,32 +1,59 @@
-﻿
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FashionUI.master.cs" Inherits="FashionUI.FashionUI" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FashionUI.master.cs" Inherits="FashionUI.FashionUI" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="Main/Kids/Shirts/css/KidsShirt.css" rel="stylesheet" />
-    <script src="Main/Kids/Shirts/js/KidsShirt.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/solid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/MasterPage.css" />
+
+
+
+
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Women</li>
-            <li>Men</li>
-            <li>Kids</li>
-        </ul>
-    </nav>
-    <form id="form1" runat="server">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+                <div style="margin: auto;">
+                    <div class="collapse navbar-collapse">
+                        <a class="navbar-brand" href="#">SAMPLE FASHION</a>
+                        <%--<a class="navbar-brand" href="#">SAMPLE FASHION</a>--%>
+                        <ul class="navbar-nav" id="myNav">
 
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <li class="nav-item ml-1 "><a class="nav-link" href="#">WOMEN</a></li>
+                            <li class="nav-item ml-1"><a class="nav-link" href="#">MEN</a></li>
+                            <li class="nav-item ml-1 mr-lg-5"><a class="nav-link" href="#">KIDS</a></li>
+                        </ul>
+                        <form class="form-inline">
+                            <input class="form-control mr-2" type="search" placeholder="Search" />
+                            <button class="btn btn-success" type="submit"><i class="fas fa-search fa-lg"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row" style="margin-top:60px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
         
-        </asp:ContentPlaceHolder>
-
-    </form>
+    </div>
+    <%--<div>
+        <footer class="_footer">
+            <span>&copy 2019 Copyright: <a href="#">itcFashion.com</a></span>
+        </footer>
+    </div>--%>
 </body>
 </html>
