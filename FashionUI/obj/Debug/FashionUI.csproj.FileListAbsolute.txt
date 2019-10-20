@@ -1,0 +1,12 @@
+D:\UI UX\FashionUI\bin\FashionUI.dll.config
+D:\UI UX\FashionUI\bin\FashionUI.dll
+D:\UI UX\FashionUI\bin\FashionUI.pdb
+D:\UI UX\FashionUI\obj\Debug\FashionUI.csprojResolveAssemblyReference.cache
+D:\UI UX\FashionUI\obj\Debug\FashionUI.dll
+D:\UI UX\FashionUI\obj\Debug\FashionUI.pdb
+D:\UI UX\Final project\FashionUI\bin\FashionUI.dll.config
+D:\UI UX\Final project\FashionUI\bin\FashionUI.dll
+D:\UI UX\Final project\FashionUI\bin\FashionUI.pdb
+D:\UI UX\Final project\FashionUI\obj\Debug\FashionUI.csprojResolveAssemblyReference.cache
+D:\UI UX\Final project\FashionUI\obj\Debug\FashionUI.dll
+D:\UI UX\Final project\FashionUI\obj\Debug\FashionUI.pdb

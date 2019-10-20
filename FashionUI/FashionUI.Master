@@ -1,0 +1,32 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FashionUI.master.cs" Inherits="FashionUI.FashionUI" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Main/Kids/Shirts/css/KidsShirt.css" rel="stylesheet" />
+    <script src="Main/Kids/Shirts/js/KidsShirt.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Women</li>
+            <li>Men</li>
+            <li>Kids</li>
+        </ul>
+    </nav>
+    <form id="form1" runat="server">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
