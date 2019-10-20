@@ -17,4 +17,7 @@
         <div class="col-md-4"><a href="KidsShirtDetail08.aspx"><img src="Main/Kids/Shirts/Image/23.jpg" alt="Alternate Text" /></a></div>
         <div class="col-md-4"><a href="KidsShirtDetail09.aspx"><img src="Main/Kids/Shirts/Image/27.jpg" alt="Alternate Text" /></a></div>
     </div> 
+    <div class="row">
+        <div class="col-md-4">hi hi</div>
+    </div>
 </asp:Content>
