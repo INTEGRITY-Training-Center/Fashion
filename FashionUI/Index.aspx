@@ -18,6 +18,7 @@
                     <img src="Main/Kids/Shirts/Image/01.jpg" alt="Alternate Text" class="image-gallery" />
                     <img src="Main/Kids/Shirts/Image/02.jpg" alt="Alternate Text" class="image-gallery" />
                      <img src="Main/Kids/Shirts/Image/03.jpg" alt="Alternate Text" class="image-gallery" />
+                     <img src="Main/Kids/Shirts/Image/04.jpg" alt="Alternate Text" class="image-gallery" />
                 </div>
              </div>
         </div>
